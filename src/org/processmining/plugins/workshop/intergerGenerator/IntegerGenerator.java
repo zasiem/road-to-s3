@@ -21,9 +21,9 @@ public class IntegerGenerator {
 	)
 	public static Object[] pluginBaru(PluginContext context) {
 		
-		int randomNumber1 = (int) (Math.random()*10) + 0;
+		int randomNumber1 = (int) (Math.random()*100) + 0;
 		System.out.println("Random Integer 1 = " + randomNumber1);
-		int randomNumber2 = (int) (Math.random()*10) + 0;
+		int randomNumber2 = (int) (Math.random()*100) + 0;
 		System.out.println("Random Integer 2 = " + randomNumber2);
 		
 		return new Object[]{randomNumber1, randomNumber2};
